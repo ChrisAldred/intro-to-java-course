@@ -11,6 +11,7 @@ import java.util.stream.IntStream;
 public class FlowControlExercises {
 
     public void fizzBuzzPrint(List<Integer> numbers){
+    
         for(int i = 0; i < numbers.size(); i = i + 1){
 
             Integer number = numbers.get(i);
@@ -22,7 +23,7 @@ public class FlowControlExercises {
             } else if (number % 5 == 0) {
                 System.out.println("Buzz");
             } else {
-                System.out.println(number.toString());
+                System.out.println(number);
             }
         }
     }
